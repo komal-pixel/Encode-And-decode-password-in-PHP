@@ -1,6 +1,9 @@
 <?php 
-$str = 'S20qJiRnVDEpPTEg';
+$name ="Komal-Pixel";
+$encode= md5($name);
+//Encoded result will be  "e5vgdlkcRFK#"
+//it would be vary as per your string
+$str = 'e5vgdlkcRFK#';
 echo  base64_decode ($str);
-// $ajay = 'bWdpZG1AMTIz';
-// echo  base64_decode ($ajay);
+//to econde password we canuse base64_enode instead of md5() function
 // ?>
